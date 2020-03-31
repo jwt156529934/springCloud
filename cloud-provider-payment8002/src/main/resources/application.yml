@@ -1,9 +1,9 @@
 server:
-  port: 8001
+  port: 8002
 
 eureka:
   instance:
-    instance-id: payment8001
+    instance-id: payment8002
     prefer-ip-address: true
   client:
     #表示是否将自己注册进EurekaServer默认为true
