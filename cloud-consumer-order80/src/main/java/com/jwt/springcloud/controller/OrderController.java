@@ -3,6 +3,7 @@ package com.jwt.springcloud.controller;
 import com.jwt.springcloud.entities.CommonResult;
 import com.jwt.springcloud.entities.Payment;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,9 @@ import javax.annotation.Resource;
 public class OrderController {
     @Resource
     private RestTemplate restTemplate;
+
+    @Value("${server.port}")
+    private String serverPort;
 
 //    private static final String PAYMENT_URL="http://localhost:8001";
 
