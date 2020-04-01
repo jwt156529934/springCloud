@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>module cloud-eureka-server7001</artifactId>
+    <artifactId>cloud-eureka-server7001</artifactId>
 
     <dependencies>
         <!--eureka server-->
@@ -19,7 +19,7 @@
         </dependency>
         <!--引入自己定义的api通用包，可以使用payment支付Entity-->
         <dependency>
-            <groupId>com.atguigu.springcloud</groupId>
+            <groupId>com.jwt.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>

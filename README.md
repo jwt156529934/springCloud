@@ -37,10 +37,15 @@
 该模块作用:
 练习Ribbon和Eureka整合后消费模块可以直接调用服务而不用再关心地址和端口号，且该服务还有负载均衡功能了
 ```
-##### 6.支付模块payment8004和消费模块consumerzk-order80,使用zookeeper作为注册中心
+##### 7.支付模块payment8004和消费模块consumerzk-order80,使用zookeeper作为注册中心
 ```text
 注意:引入spring-cloud-starter-zookeeper-discovery maven坐标后,里面会自带zookeeper包,需要先排除,在手动引入你
 zookeeper对应的版本
 该模块作用:
 练习使用zookeeper作为服务中心,来实现服务间调用
+```
+##### 8.支付模块payment8006和消费模块consumerconsul-order80,使用consul作为注册中心
+```text
+该模块作用:
+练习使用consul作为服务中心,来实现服务间调用
 ```
