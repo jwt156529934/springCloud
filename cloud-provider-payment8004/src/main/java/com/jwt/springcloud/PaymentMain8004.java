@@ -10,11 +10,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @date 2020/3/30 21:45
  */
 @SpringBootApplication
-//@EnableEurekaClient
 @EnableDiscoveryClient
-public class PaymentMain8002 {
+public class PaymentMain8004 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMain8002.class,args);
-        System.out.println("payment8002启动成功");
+        SpringApplication.run(PaymentMain8004.class,args);
+        System.out.println("paymentMain8004启动成功");
     }
 }
