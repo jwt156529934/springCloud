@@ -45,7 +45,7 @@
         </dependency>
         <!--引入自定义的api通用包，可以使用payment支付Entity-->
         <dependency>
-            <groupId>com.atguigu.springcloud</groupId>
+            <groupId>com.jwt.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
