@@ -2,15 +2,8 @@
 **/target
 **/node_modules
 **/test.sql
-.idea
 package-lock.json
 **/dist
-.classpath
-.factorypath
-.vscode
-.settings
-.project
-
 
 /target/
 !.mvn/wrapper/maven-wrapper.jar
