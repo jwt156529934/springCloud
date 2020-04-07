@@ -54,3 +54,8 @@ zookeeper对应的版本
 该模块作用:
 练习使用openFeign来远程调用服务
 ```
+##### 10.消费模块consumer-feign-hystrix-order80,支付模块provider-hystrix-payment8001,hystrix监控平台dashboard9001
+```text
+该模块作用:
+练习使用hystrix来实现服务的降级和熔断,9001模块搭建hystrix界面化监控平台.
+```
