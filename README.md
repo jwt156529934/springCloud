@@ -24,7 +24,8 @@
 步骤:
 1) 建立两个eureka服务工程,引入相关maven坐标,在启动类上使用@EnableEurekaServer注解,表示这是个eureka服务端,
 在配置文件里配置eureka相关信息,将两个eureka服务配置成相互注册
-2) 将支付模块和消费模块引入eureka客户端坐标,在启动类使用@EnableEurekaClient标记为eureka客户端,修改配置,将自己注入到两个eureka服务当中.
+2) 将支付模块和消费模块引入eureka客户端坐标,在启动类使用@EnableEurekaClient标记为eureka客户端,修改配置,
+将自己注入到两个eureka服务当中.
 3）按顺序启动eureka7001和eureka7002,在启动支付模块和消费模块.
 该模块作用:
 练习如何搭建eureka集群
@@ -33,7 +34,8 @@
 ```text
 步骤:
 1)新建一个支付模块payment8002,配置端口号为8002,其他代码和支付模块8001一样
-2)消费模块order80在调用时,路径使用支付模块的配置的服务名,通过在RestTemplate上使用@LoadBalanced,可以实现负载均衡,默认是轮询策略
+2)消费模块order80在调用时,路径使用支付模块的配置的服务名,通过在RestTemplate上使用@LoadBalanced,可以实现负载均衡,
+默认是轮询策略
 该模块作用:
 练习Ribbon和Eureka整合后消费模块可以直接调用服务而不用再关心地址和端口号，且该服务还有负载均衡功能了
 ```
@@ -58,4 +60,9 @@ zookeeper对应的版本
 ```text
 该模块作用:
 练习使用hystrix来实现服务的降级和熔断,9001模块搭建hystrix界面化监控平台.
+```
+##### 11.网关模块gateway9527
+```text
+该模块作用:
+练习使用通过gateway网关来访问微服务
 ```
