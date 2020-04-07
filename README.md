@@ -49,3 +49,8 @@ zookeeper对应的版本
 该模块作用:
 练习使用consul作为服务中心,来实现服务间调用
 ```
+##### 9.消费模块consumer-feign-order80,使用openFeign来调用服务
+```text
+该模块作用:
+练习使用openFeign来远程调用服务
+```
