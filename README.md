@@ -79,5 +79,10 @@ zookeeper对应的版本
 ##### 14.cloudalibaba-provider-payment9001,cloudalibaba-provider-payment9002和cloudalibaba-consumer-nacos-order83
 ```text
 该模块作用:
-练习使用nacos来作为服务注册中心,同时nacos集成了rebbon,可以实现负载均衡.
+练习使用nacos来作为服务注册中心,同时nacos集成了rebbon,可以实现负载均衡,代替eureka.
+```
+##### 15.cloudalibaba-config-nacos-client3377模块
+```text
+该模块作用:
+练习使用nacos来作为配置中心,可以实现实时更新,代替config和bus.
 ```
