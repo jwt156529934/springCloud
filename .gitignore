@@ -30,3 +30,5 @@ package-lock.json
 /dist/
 /nbdist/
 /.nb-gradle/
+
+/zipkin-server-2.12.9-exec.jar

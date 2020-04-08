@@ -76,3 +76,8 @@ zookeeper对应的版本
 该模块作用:
 练习使用消息总线实现,客户端变动,所有服务端实时更新.
 ```
+##### 14.cloudalibaba-provider-payment9001,cloudalibaba-provider-payment9002和cloudalibaba-consumer-nacos-order83
+```text
+该模块作用:
+练习使用nacos来作为服务注册中心,同时nacos集成了rebbon,可以实现负载均衡.
+```
