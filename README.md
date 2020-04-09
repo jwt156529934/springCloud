@@ -91,3 +91,8 @@ zookeeper对应的版本
 该模块作用:
 练习使用sentinel来实现服务的降级熔断,代替hystrix
 ```
+##### 17.seata-order-service2001,2002,2003模块
+```text
+该模块作用:
+练习使用seata来实现分布式全局事务管理
+```
