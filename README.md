@@ -86,3 +86,8 @@ zookeeper对应的版本
 该模块作用:
 练习使用nacos来作为配置中心,可以实现实时更新,代替config和bus.
 ```
+##### 16.cloudalibaba-sentinel-service8401模块
+```text
+该模块作用:
+练习使用sentinel来实现服务的降级熔断,代替hystrix
+```

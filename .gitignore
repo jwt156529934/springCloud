@@ -32,3 +32,4 @@ package-lock.json
 /.nb-gradle/
 
 /zipkin-server-2.12.9-exec.jar
+/sentinel-dashboard-1.7.0.jar
